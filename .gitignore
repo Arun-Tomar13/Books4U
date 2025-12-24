@@ -1,0 +1,42 @@
+# Dependencies
+# Generally, local dependencies should not be committed to source control.
+node_modules/
+/vendor/
+
+# Environment variables
+# Store sensitive information in environment variables, not in the repository.
+.env
+.venv/
+
+# Compiled code/Build artifacts
+# Compiled code, packages, and build output directories.
+/build/
+/dist/
+/target/
+*.class # Java compiled files
+*.pyc # Python compiled files
+__pycache__/ # Python cache directory
+
+# Runtime and log files
+# Files generated during application execution.
+*.log
+npm-debug.log*
+debug.log
+/logs/
+
+# IDE and Editor-specific files
+# Personal configuration files created by IDEs like VS Code, IntelliJ, etc.
+.idea/
+.vscode/
+*.suo
+*.user
+*.config.user
+
+# Operating System files
+# System-generated files that are irrelevant to other developers.
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Testing and Coverage
+/coverage/
+.nyc_output/
