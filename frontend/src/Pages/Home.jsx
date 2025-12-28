@@ -15,7 +15,7 @@ function Home() {
 },[]);
 
   return (
-    <div>hoee</div>
+    <div className='bg-red-400'>hoee</div>
   )
 }
 
